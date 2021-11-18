@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>RAGISTER & PAYMENT PAGE</title>
+  <link rel="icon" href="images/Desginer tanjim icon.png">
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/42db4deb38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container form-wrapper">
+
+    <form class="well form-horizontal" action="https://formspree.io/f/xleanpjw" method="POST"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend><h2 style="text-align: center;"><b>Registration Form</b></h2></legend><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="fas fa-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text" required="required">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="fas fa-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text" required="required">
+    </div>
+  </div>
+</div>
+
+  <div class="form-group"> 
+  <label class="col-md-4 control-label">Department</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fas fa-list"></i></span>
+    <select name="department" class="form-control selectpicker" required>
+      <option value="">Select your Department / of Course</option>
+      <option>Web Design</option>
+      <option>Web Development</option>
+      <option >Web Design, Development (both)</option>
+      <option >Graphics Design</option>
+      <option >CPA Maketing</option>
+      <option >Digital Marketing</option>
+      <option >Ethical Hacking</option>
+      <option >English Speaking Course</option>
+    </select>
+  </div>
+</div>
+</div>
+  
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Present Address</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="fas fa-home"></i></span>
+  <input name="present_address" placeholder="Present Address" class="form-control"  type="text" required="required">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Permanent Address</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="fas fa-home"></i></span>
+  <input name="permanent_address" placeholder="Permanent Address" class="form-control"  type="text" required="required">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fas fa-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" required="required">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Contact No.</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fas fa-phone"></i></span>
+  <input name="contact_no" placeholder="(+880)" class="form-control" type="text" required="required">
+    </div>
+  </div>
+</div>
+<!-- Select Basic -->
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <i class="fas fa-paper-plane"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+    
+  </div>
+</div>
+</fieldset>
+</form>
+</div>
+
+<!--Payment Method-->
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="https://formspree.io/f/xleanpjw" method="POST">
+      
+        <div id="wrapper">
+          <div class="row">
+            <div class="col-50">
+              <h3>Billing Address</h3>
+              <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your Name" required>
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email" placeholder="@example.com" required>
+              <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+              <input type="text" id="adr" name="address" placeholder="Type Address" required>
+              <label for="city"><i class="fa fa-institution"></i> City</label>
+              <input type="text" id="city" name="city" placeholder="New York" required>
+  
+              <div class="row">
+                <div class="col-50">
+                  <label for="state">State</label>
+                  <input type="text" id="state" name="state" placeholder="NY" required>
+                </div>
+                <div class="col-50">
+                  <label for="zip">Zip</label>
+                  <input type="text" id="zip" name="zip" placeholder="10001" required>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards & Payment Method</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                <div class="payment-method">
+                  <img class="bkash" src="./images/bkash.png" alt="">
+                  <img class="nagad" src="./images/nagad.png" alt="">
+                  <img class="roket" src="./images/roket.png" alt="">
+                </div>
+              </div>
+              <label for="cname">Name Of Payment Method</label>
+              <select name="cardname" id="cname" required>
+                <option value="">Select Payment Method</option>
+                <option>Bkash</option>
+                <option>Roket</option>
+                <option >Nagad</option>
+                <option >Cash</option>
+                <option >Bank</option>
+              </select>
+              <label for="ccnum">Payment Number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="Type Number" required>
+              <label for="expmonth">Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="January" required>
+              <div class="row">
+                <div class="col-50">
+                  <label for="expyear">Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2010" required>
+                </div>
+                <div class="col-50">
+                  <label for="cvv">Date</label>
+                  <input type="text" id="cvv" name="cvv" placeholder="Date" required>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <label>
+          <input type="checkbox" name="sameadr" required> Checkout
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+
+    <!-- /.container -->
+	<script src="./Js/script.js"></script>
+</body>
+</html>

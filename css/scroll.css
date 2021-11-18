@@ -1,0 +1,24 @@
+/*Top Btn*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #C40DFF;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	transition: all 0.5s ease;
+  }
+  
+  i.fas.fa-angle-double-up {
+	  font-size: 30px;
+  }
+  
+  #myBtn:hover {
+	background-color: #FF08D2;
+  }
